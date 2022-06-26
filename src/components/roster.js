@@ -6,7 +6,8 @@ import './style.css';
 let Roster = () => {
 
 	let routeBack = () => {
-		window.history.back();
+		// route to /teams
+		window.location.href = "/teams";
 	}
 
 	let [teams, setTeams] = React.useState([]);
