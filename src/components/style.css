@@ -1,0 +1,40 @@
+.flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    align-content: space-around;
+    flex-wrap: nowrap;
+    flex-direction: row;
+
+}
+
+.team-id {
+	width: 100px;
+	height: 100px;
+}
+
+.team-title {
+	text-align: center;
+	font-size: 38px;
+	color: blue;
+	
+}
+
+.red-color {
+	color: red;
+	font-size: 26px;
+}
+
+.back-button {
+	color: black;
+	background-color: yellow;
+}
+
+.toolbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
