@@ -5,9 +5,6 @@
  import renderer from 'react-test-renderer';
  import Teams from './components/teams';
  import React, { Component } from 'react';
- import { shallow, render, mount } from 'enzyme';
- import { configure } from 'enzyme';
- import Adapter from 'enzyme-adapter-react-16';
  
  // write unit tests for the teams Component
  describe('Teams Component', () => {

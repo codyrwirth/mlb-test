@@ -28,6 +28,7 @@
 .back-button {
 	color: black;
 	background-color: yellow;
+	font-weight: bold;
 }
 
 .toolbar {
