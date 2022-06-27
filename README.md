@@ -15,6 +15,10 @@ GET to `http://statsapi.mlb.com/api/v1/teams/<teamId>/roster?rosterType=active`
 Add some styling to the component to make it more presentable or create one or two unit tests for the project.
 
 --------------------------------------------------------------------------------------------------------------------------------------------
+### Notes
+
+I installed some additional dependencies for routing and testing
+
 ### Start / Test
 
 `yarn add all`
@@ -25,5 +29,5 @@ Add some styling to the component to make it more presentable or create one or t
 
 2) And click on a team button or name, to render a list of all the players on the team and the team name
 
-3) Unit tests were added, run `yarn test` to run tests to ensure that components are rendering properly
+3) Unit tests were added, run `yarn test` to run tests to ensure that components are rendering properly as well as to ensure that other elements in the dom were rendering well also
 
