@@ -47,6 +47,7 @@ let Roster = () => {
 	let currentRouteTwo = window.location.pathname.split("/")[2];
 	// strip out '%20' from the currentRouteTwo
 	let currentRouteTwoStrip = currentRouteTwo.replace(/%20/g, " ");
+
 	console.log(currentRouteTwoStrip)
 
 	return (
