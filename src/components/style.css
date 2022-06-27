@@ -1,11 +1,12 @@
 .flex-container {
-    display: flex;
+	display: flex;
     align-items: center;
     justify-content: space-between;
     flex-direction: column;
     align-content: space-around;
     flex-wrap: nowrap;
     flex-direction: row;
+    width: 100%;
 }
 
 .team-id {
