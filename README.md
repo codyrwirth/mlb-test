@@ -21,3 +21,7 @@ Add some styling to the component to make it more presentable or create one or t
 
 `yarn start` && `yarn test`
 
+1) Navigate to the route `/teams` to get a rendered list of teams
+
+2) And click on a team button or name, to render a list of all the players on the team and the team name
+
