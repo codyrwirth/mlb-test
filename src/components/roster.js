@@ -18,7 +18,7 @@ let Roster = () => {
 	// convert current route to num
 	let currentRouteNum = parseInt(currentRoute);
 
-	const url = `http://statsapi.mlb.com/api/v1/teams/${currentRouteNum}/roster?rosterType=active`;
+	const url = `https://statsapi.mlb.com/api/v1/teams/${currentRouteNum}/roster?rosterType=active`;
 
 	useEffect(() => {
 		const fetchData = async () => {
