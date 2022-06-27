@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Teams Component renders correctly 1`] = `
+<div
+  className="toolbar"
+>
+  <div
+    className="flex-container"
+  />
+  <div
+    className="displayedData"
+  />
+</div>
+`;
