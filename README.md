@@ -16,5 +16,7 @@ Add some styling to the component to make it more presentable or create one or t
 
 ### Start / Test
 
-`npm start` && `npm test`
+`yarn add all`
+
+`yarn start` && `yarn test`
 
