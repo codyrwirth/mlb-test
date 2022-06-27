@@ -4,6 +4,8 @@ import { render, screen } from '@testing-library/react';
 import Roster from './roster';
 import React from 'react';
 
+// takes snapshot of page, converts to json, and compares to expected snapshot
+
 test('renders the landing page', () => {
   render(<Roster />);
 });
