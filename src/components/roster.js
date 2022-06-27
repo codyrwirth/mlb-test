@@ -12,8 +12,6 @@ let Roster = () => {
 
 	let [teams, setTeams] = React.useState([]);
 
-	let [persons, setPersons] = React.useState([]);
-
 	// get the last of the route of the current page after the last slash
 	let currentRoute = window.location.pathname.split("/").pop();
 
