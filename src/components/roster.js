@@ -52,10 +52,12 @@ let Roster = () => {
 
 	return (
 		<div className="toolbar">
-			<h3 className="team-title">{currentRouteTwoStrip}</h3>
+			<div className="title-border">
+				<h3 className="team-title">{currentRouteTwoStrip}</h3>
+			</div>
 			<br></br>
 			<button className="back-button" onClick={routeBack}>Back To Teams</button>
-			<ul data-testid="team-list">
+			<ul className="list-data" data-testid="team-list">
 				{teams.map((team) =>
 					<li className="red-color" value={team.person.fullName} >
 						{team.person.fullName}
