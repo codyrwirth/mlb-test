@@ -15,6 +15,10 @@ GET to `http://statsapi.mlb.com/api/v1/teams/<teamId>/roster?rosterType=active`
 Add some styling to the component to make it more presentable or create one or two unit tests for the project.
 
 --------------------------------------------------------------------------------------------------------------------------------------------
+### Notes
+
+I installed some additional dependencies for routing and testing
+
 ### Start / Test
 
 `yarn add all`
