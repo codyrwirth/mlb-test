@@ -17,6 +17,7 @@ test('render h1 element', () => {
 	screen.debug();
   
 	expect(screen.getByText('MLB Team Roster')).toBeInTheDocument();
+
   });
 
 // TEST: Make sure the teams are being rendered as 30 buttons exactly

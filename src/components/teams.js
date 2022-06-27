@@ -1,6 +1,7 @@
 import React from "react";
 import { useEffect } from "react";
 import './style.css';
+import logo from "./baseball.png";
 
 let Teams = () => {
 
@@ -29,6 +30,8 @@ console.log(currentRoute);
   return (
     <div className="toolbar">
 		<h1>MLB Team Roster</h1>
+		<br></br>
+		<img className="baseball-image"  src={logo} alt="fireSpot"/>
 		<br></br>
       <div className="flex-container">
         {teams.map((team) => (
